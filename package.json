@@ -1,0 +1,29 @@
+{
+  "name": "cypress-cit-desafio",
+  "version": "1.0.0",
+  "description": "CI&T - Technical Challenge",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run-dashboard": "cypress run --record --key ff135af6-1577-41c4-ab59-74345c104187"
+  },
+  "keywords": [
+    "CI&T",
+    "Cypress",
+    "Automation",
+    "CI",
+    "Challenge",
+    "BDD",
+    "Gherkin"
+  ],
+  "author": "Silvio Nogueira Martins",
+  "license": "ISC",
+  "dependencies": {
+    "chai-sorted": "^0.2.0",
+    "cypress": "9.1.0",
+    "cypress-cucumber-preprocessor": "4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
